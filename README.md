@@ -16,6 +16,8 @@ The tutorial improvement tasks are not yet fixed, am still coordinating with Pat
     However, loading such files from disk requires a local web server.
   - Solution: Adopt the industry standard [vite](https://vite.dev/) tool as the local web server.\
     This also lets us directly load the dataset from disk, instead of having to jump through hoops. It's a big upgrade.
+- [ ] Switch from Node.js to Deno
+- [ ] Switch from Node.js to using a VS Code live server extension
 - [ ] Add online playground for the tutorial.
   - Problem: The new tooling depends on having Node.js/Deno installed.
   - Solution: Having an online version of the tutorial, [hosted on Stackblitz](https://stackblitz.com/~/github.com/Welko/rtvis-webgpu-tutorial), solves this. 
